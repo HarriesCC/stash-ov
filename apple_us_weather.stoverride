@@ -12,5 +12,5 @@ http:
       timeout: 5
 script-providers:
   weather-us-aqi:
-    url: https://raw.githubusercontent.com/STASH-NETWORKS-LIMITED/stash-example/main/script/iOS15_Weather_AQI_Standard.js
+    url: https://raw.githubusercontent.com/HarriesCC/stash-ov/main/script/iOS15_Weather_AQI_Standard.js
     interval: 86400
