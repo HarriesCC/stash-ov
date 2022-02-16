@@ -1,5 +1,5 @@
-name: Disney+双字幕
-desc: Disney+显示第二英文字幕
+name: Disney+ 双字幕
+desc: Disney+ 显示第二英文字幕
 
 http:
   mitm:
