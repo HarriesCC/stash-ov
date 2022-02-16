@@ -12,5 +12,5 @@ http:
       timeout: 5
 script-providers:
   disney-plus-sualsub:
-    url: https://raw.githubusercontent.com/Neurogram-R/Surge/master/DisneyPlus-Dualsub.js
+    url: https://raw.githubusercontent.com/HarriesCC/stash-ov/main/script/DisneyPlus-Dualsub.js
     interval: 86400
