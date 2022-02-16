@@ -3,7 +3,7 @@ desc: 显示第二英文字幕
 
 http:
   mitm:
-    - *.media.dssott.com
+    - "*.media.dssott.com"
   script:
     - match: https:\/\/.+media.dssott.com\/ps01\/disney\/.+(\.vtt|-all-.+\.m3u8.*)
       name: disney-plus-sualsub
