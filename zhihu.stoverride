@@ -1,0 +1,18 @@
+name: 知乎
+desc: 知乎去广告
+
+http
+  mitm:
+    - www.zhihu.com
+    - api.zhihu.com
+    - zhuanlan.zhihu.com
+
+rules:
+  RULE-SET,zhihu-ads,REJECT
+
+
+rule-providers:
+  'zhihu-ads':
+    behavior: classical
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_remove_ads.list
