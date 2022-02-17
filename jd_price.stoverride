@@ -12,5 +12,5 @@ http:
       timeout: 5
 script-providers:
   jd-price-aqi:
-    url: https://raw.githubusercontent.com/githubdulong/Script/master/jd_tb_price.js
+    url: https://raw.githubusercontent.com/HarriesCC/stash-ov/main/script/jd_tb_price.js
     interval: 86400
