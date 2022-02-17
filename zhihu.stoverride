@@ -15,4 +15,4 @@ rule-providers:
   'zhihu-ads':
     behavior: classical
     interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_remove_ads.list
+    url: https://raw.githubusercontent.com/HarriesCC/stash-ov/main/ruleset/zhihu-ads.yaml
