@@ -8,7 +8,7 @@ http
     - zhuanlan.zhihu.com
 
 rules:
-  RULE-SET,zhihu-ads,REJECT
+  - RULE-SET,zhihu-ads,REJECT
 
 
 rule-providers:
