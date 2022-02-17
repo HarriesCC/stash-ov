@@ -1,0 +1,16 @@
+name: 京东历史价格
+desc: 京东比价
+
+http:
+  mitm:
+    - api.m.jd.com
+  script:
+    - match: ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig)
+      name: jd-price-aqi
+      type: response
+      require-body: true
+      timeout: 5
+script-providers:
+  jd-price-aqi:
+    url: https://raw.githubusercontent.com/githubdulong/Script/master/jd_tb_price.js
+    interval: 86400
