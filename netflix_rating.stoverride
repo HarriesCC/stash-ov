@@ -1,0 +1,7 @@
+name: Netflix 评分
+desc: IMDb, Rotten Tomatoes and Douban ratings for Netflix shows.
+
+http:
+  mitm:
+    - ios-*.prod.ftl.netflix.com
+    - ios.prod.ftl.netflix.com
