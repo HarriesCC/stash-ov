@@ -5,3 +5,14 @@ http:
   mitm:
     - ios-*.prod.ftl.netflix.com
     - ios.prod.ftl.netflix.com
+  script:
+    - match: https?:\/\/ios(-.*)\.prod\.ftl\.netflix\.com\/iosui\/user\/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D
+      name: weather-us-aqi
+      type: response
+      require-body: true
+      timeout: 5
+
+script-providers:
+  nf_rating:
+    url: https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
+    interval: 86400
