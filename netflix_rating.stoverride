@@ -1,5 +1,6 @@
 name: Netflix 评分
-desc: IMDb, Rotten Tomatoes and Douban ratings for Netflix shows.
+desc: 📺IMDb, Rotten Tomatoes and Douban ratings for Netflix shows.📺IMDb, Rotten Tomatoes and Douban ratings for Netflix shows.
+category: 'Video'
 
 http:
   mitm:
